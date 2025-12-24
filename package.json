@@ -1,0 +1,19 @@
+{
+  "name": "megh-ai-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot using open-wa and llama3.3 via OpenRouter",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@open-wa/wa-automate": "^4.31.6",
+    "axios": "^1.6.7",
+    "dotenv": "^16.3.1",
+    "jimp": "^1.6.0",
+    "office-to-pdf": "^4.0.0",
+    "pdf-lib": "^1.17.1",
+    "pdfkit": "^0.16.0",
+    "sharp": "^0.34.2"
+  }
+}
